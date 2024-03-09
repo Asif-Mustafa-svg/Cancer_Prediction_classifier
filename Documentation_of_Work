@@ -12,6 +12,8 @@ ANOVA TEST: OLS regression, Correlation heatmap were presented to check the qual
 
 MODEL DEPLOYMENT: Due to being a classification problem I have used SVM, Logistics Regression, K-Nearest Neighbour, Naive Bayes classifier. Then bootstrap aggregation has been conducted for more boosting where the result was not good enough so XGboost was used to increase but both of these showed the same result. Next by ensembling three models together and then by using stackingclassifier a 98% accuracy was obtained.
 
+CLUSTERING: Implementation of clustering, which is to group lung cancer possibility by age range and smoking.
+
 DEEP NEURAL NETWORK: Finally to increse more accuracy NN was used with keeping Optimizer:adam, sigmoid function and activation :Relu and epochs was set 47 where the model worked best. it showed 100% accuracy. Still a lot of work is required to work on it.
 
 CONCLUSION: Though it presented a good accuracy score,more things are required to work on it like others boosting operation more exploratory data analysis, more visualization, implementation of Cross validation, Improved DEEP LEARNING Approach.
